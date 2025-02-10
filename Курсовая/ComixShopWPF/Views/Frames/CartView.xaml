@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="ComixShopWPF.Views.Frames.CartView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ComixShopWPF.Views.Frames"
+             xmlns:vm="clr-namespace:ComixShopWPF.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="900" d:Background="White">
+    <UserControl.DataContext>
+        <vm:CartViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <TextBlock Text="Ваша корзина" 
+                   FontSize="24" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,10" 
+                   FontWeight="Bold" />
+
+        <DataGrid 
+            ItemsSource="{Binding CartItems}" 
+            AutoGenerateColumns="False" 
+            CanUserAddRows="False" 
+            CanUserDeleteRows="False" 
+            IsReadOnly="True"
+            Margin="0,50,0,70">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Comix.Title}" Width="*" />
+                <DataGridTextColumn Header="Количество" Binding="{Binding Quantity}" Width="100" />
+                <DataGridTextColumn Header="Цена за штуку" Binding="{Binding Comix.Price, StringFormat=C}" Width="120" />
+                <!--<DataGridTextColumn Header="Итого" Binding="{Binding TotalCost, StringFormat=C}" Width="120" /> -->
+
+                <!-- Кнопка для удаления позиции -->
+                <DataGridTemplateColumn Header="Действия" Width="90">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Удалить" 
+                                    Command="{Binding DataContext.RemoveItemCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" 
+                                    CommandParameter="{Binding}" 
+                                    Background="Red" 
+                                    Foreground="White" 
+                                    Padding="5,0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Margin="15" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <TextBlock Text="Общая стоимость: " FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBlock Text="{Binding TotalCost, StringFormat=C}" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,20,0"/>
+
+            <Button Content="Очистить корзину" 
+                    Command="{Binding ClearCartCommand}" 
+                    Foreground="Black"
+                    Background="White"
+                    BorderBrush="Black"
+                    Width="150" 
+                    Height="40" 
+                    Margin="10,0" />
+            
+            <Button Content="Оформить заказ" 
+                    Command="{Binding PlaceOrderCommand}" 
+                    Width="150" 
+                    Height="40" 
+                    Margin="10,0" />
+        </StackPanel>
+    </Grid>
+</UserControl>

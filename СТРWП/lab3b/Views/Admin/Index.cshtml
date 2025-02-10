@@ -1,0 +1,85 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@functions
+{
+	string getUserName(string userID){
+		string? name = ((List<IdentityUser>)ViewBag.users).FirstOrDefault(u => { return (u.Id == userID); })?.UserName;
+		return string.Format($"Name: {name}");
+	}
+	string getRoleName(string roleID){
+		string? name = ((List<IdentityRole>)ViewBag.roles).FirstOrDefault(r => { return (r.Id == roleID); })?.Name;
+		return string.Format($"Role: {name}");
+	}
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin/Index</title>
+</head>
+<body>
+    <h1>Admin panel</h1>
+    @* <a href="/Admin/Users">Users</a> *@
+    @* <a href="/Admin/Roles">Roles</a> *@
+
+	<div class="text-center">
+		<h1 class="display-4">Welcome @ViewBag.UserName</h1>
+		<p>
+			Ur roles:
+			@if (ViewBag.current_roles != null)
+				foreach (var role in ViewBag.current_roles)
+				{
+					<span>@role </span>
+				}
+			else
+			{
+				<span>no roles</span>
+			}
+		</p>
+		@* <h2>Users</h2> *@
+		@* @foreach(IdentityUser user in ViewBag.users){ *@
+		@* 	<p>ID: @user.Id, Email: @user.Email, UserName: @user.UserName</p> *@
+		@* } *@
+
+		@* <h2>Roles</h2> *@
+		@* @foreach (IdentityRole role in ViewBag.roles) *@
+		@* { *@
+		@* 	<p>@role.Id, @role.Name</p> *@
+		@* } *@
+		<ul>
+			<li><a href="@Url.Action("CreateUser", "Admin")">Create user</a></li>
+			<li><a href="@Url.Action("DeleteUser", "Admin")">Delete user</a></li>
+			<li><a href="@Url.Action("AssignRole", "Admin")">Assign role</a></li>
+			<li><a href="@Url.Action("CreateRole", "Admin")">Create role</a></li>
+			<li><a href="@Url.Action("DeleteRole", "Admin")">Delete role</a></li>
+		</ul>
+		<h2>Users/Roles</h2>
+		@foreach (IdentityUserRole<string> ur in ViewBag.users_roles)
+		{
+			<p>@ur.UserId [@getUserName(ur.UserId)], @ur.RoleId [@getRoleName(ur.RoleId)]</p>
+		}
+	@* 	<h2>CreateAsync</h2> *@
+	@* 	<div> *@
+	@* 		<form method="post" action="/AdminController/CreateUser"> *@
+	@* 			Name: <input type="text" name="name"/> *@
+	@* 			Password: <input type="text" name="pass"/> *@
+	@* 			<input type="submit" value="OK"/> *@
+	@* 			<input type="reset" value="Cancel"/> *@
+	@* 		</form> *@
+	@* 	</div> *@
+	@* </div> *@
+	@* <div> *@
+	@* 	<h2>Welcome @ViewBag.currentUser</h2> *@
+	@* 	<div> *@
+	@* 		<form method="post" action="/AdminController/SignIn"> *@
+	@* 			Name: <input type="text" name="name" /> *@
+	@* 			Password: <input type="text" name="pass" /> *@
+	@* 			<input type="submit" value="OK" /> *@
+	@* 			<input type="reset" value="Cancel" /> *@
+	@* 		</form> *@
+	@* 	</div> *@
+
+		
+		
+	</div>
+</body>
+</html>

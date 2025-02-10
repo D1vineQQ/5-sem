@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @ViewBag.UserName</h1>
+    <p>
+        Ur roles:
+        @if (ViewBag.current_roles != null)
+            foreach (var role in ViewBag.current_roles)
+            {
+			    <span>@role </span>
+            }
+        else
+        {
+            <span>no roles</span>
+        }
+    </p>
+    <ul>
+        @if (!User.Identity.IsAuthenticated){
+            <li><a href="@Url.Action("Register", "Admin")">Зарегистрироваться</a></li>
+            <li><a href="@Url.Action("SignIn", "Admin")">Авторизоваться</a></li>
+        }
+        else
+        {
+            <li><a href="@Url.Action("SignOutUser", "Admin")">Выйти</a></li>
+            <li><a href="@Url.Action("ChangePassword", "Admin")">Изменить пароль</a></li>
+            <li><a href="@Url.Action("DeleteOwn", "Admin")">Удалить свою учётную запись</a></li>
+            <li><a href="@Url.Action("Index", "Admin")">Админ панель</a></li>
+            <li><a href="@Url.Action("Index", "Calc")">Калькулятор</a></li>
+        }        
+    </ul>
+</div>

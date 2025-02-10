@@ -1,0 +1,191 @@
+:root {
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 1000;
+    display: none;
+}
+
+.dialog {
+    position: fixed;
+    top: 92%;
+    right: 0;
+    width: 350px;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.80);
+    color: #333333;
+    z-index: 1500;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.dialog-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.dialog .header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18pt;
+    cursor: pointer;
+    color:white;
+}
+
+.dialog .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog .history {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.70);
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog .history .question,
+.dialog .history .answer {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.dialog .history .question {
+    background: rgba(0, 0, 0, 0.80);
+    border: 1px solid purple;
+    align-self: flex-end;
+    max-width: fit-content;
+    color: white;
+}
+
+.dialog .history .answer {
+    background: purple;
+    color: white;
+    align-self: flex-start;
+    position: relative;
+}
+
+input {
+    max-width: 100% !important;
+}
+
+.formula {
+    background-color: #fff;
+    color: #000;
+}
+
+.dialog input,
+.dialog button {
+    background-color: rgba(0, 0, 0, 0.80);
+    margin: 10px auto;
+    width: 95%;
+    max-width: 100%;
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color:magenta;
+}
+
+@media screen and (max-width: 500px) {
+    .dialog input {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .dialog input {
+        width: 91%;
+    }
+}
+
+.dialog button {
+    width: 100%;
+}
+
+.dialog button {
+    background-color: magenta;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dialog button:hover {
+    background-color: purple;
+}
+
+#history::-webkit-scrollbar {
+    width: 8px;
+}
+
+#history::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+#history::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dialog .history .answer img {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.dialog .zoom-img {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    fill: #fff;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    pointer-events: none;
+}
+
+.overlay-img {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+}
+
+/* Скрытие скроллбара для Chrome, Safari и Edge */
+::-webkit-scrollbar {
+    display: none; /* Скрывает скроллбар */
+}
+
+.question input{
+    width: 328px;
+}

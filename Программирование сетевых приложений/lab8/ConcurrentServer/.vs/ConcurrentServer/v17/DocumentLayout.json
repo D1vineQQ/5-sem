@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\ConcurrentServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7D4ABD-00B8-4A11-8771-E758515EB664}|..\\server test\\ClientT\\ClientT\\ClientT.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\server test\\ClientT\\ClientT\\ClientT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A8E7A6-1EC5-48B1-84DD-9D3FCB5EE0BC}|..\\server test\\RConsole\\ClientNP\\ClientNP.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\server test\\RConsole\\ClientNP\\RConsole.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B31C94D-42C6-46A1-8572-CC3A705BDC7A}|ServiceLibrary\\ServiceLibrary.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\Win32Project1\\Win32Project1\\ErrorFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB9B4C-6588-4D65-AB19-BAFEB52D9507}|ConcurrentServer\\ConcurrentServer.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\ConcurrentServer\\ConcurrentServer\\ConcurrentServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D9EB9B4C-6588-4D65-AB19-BAFEB52D9507}|ConcurrentServer\\ConcurrentServer.vcxproj|solutionrelative:ConcurrentServer\\ConcurrentServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EB9B4C-6588-4D65-AB19-BAFEB52D9507}|ConcurrentServer\\ConcurrentServer.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\ConcurrentServer\\ConcurrentServer\\ErrorFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D9EB9B4C-6588-4D65-AB19-BAFEB52D9507}|ConcurrentServer\\ConcurrentServer.vcxproj|solutionrelative:ConcurrentServer\\ErrorFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RConsole.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\server test\\RConsole\\ClientNP\\RConsole.cpp",
+              "RelativeDocumentMoniker": "..\\server test\\RConsole\\ClientNP\\RConsole.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\server test\\RConsole\\ClientNP\\RConsole.cpp",
+              "RelativeToolTip": "..\\server test\\RConsole\\ClientNP\\RConsole.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T16:02:26.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a5174402-226b-48da-aa5c-91376ed45871}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorFunctions.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\Win32Project1\\Win32Project1\\ErrorFunctions.cpp",
+              "RelativeDocumentMoniker": "..\\Win32Project1\\Win32Project1\\ErrorFunctions.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\Win32Project1\\Win32Project1\\ErrorFunctions.cpp",
+              "RelativeToolTip": "..\\Win32Project1\\Win32Project1\\ErrorFunctions.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T15:53:13.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientT.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\server test\\ClientT\\ClientT\\ClientT.cpp",
+              "RelativeDocumentMoniker": "..\\server test\\ClientT\\ClientT\\ClientT.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\server test\\ClientT\\ClientT\\ClientT.cpp",
+              "RelativeToolTip": "..\\server test\\ClientT\\ClientT\\ClientT.cpp",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAqwMsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T15:50:01.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorFunctions.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\ConcurrentServer\\ConcurrentServer\\ErrorFunctions.cpp",
+              "RelativeDocumentMoniker": "ConcurrentServer\\ErrorFunctions.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\ConcurrentServer\\ConcurrentServer\\ErrorFunctions.cpp",
+              "RelativeToolTip": "ConcurrentServer\\ErrorFunctions.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAtwDkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-27T14:53:25.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConcurrentServer.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\ConcurrentServer\\ConcurrentServer\\ConcurrentServer.cpp",
+              "RelativeDocumentMoniker": "ConcurrentServer\\ConcurrentServer.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab8\\ConcurrentServer\\ConcurrentServer\\ConcurrentServer.cpp",
+              "RelativeToolTip": "ConcurrentServer\\ConcurrentServer.cpp",
+              "ViewState": "AgIAACoCAAAAAAAAAAAowDsCAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T15:48:07.167Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

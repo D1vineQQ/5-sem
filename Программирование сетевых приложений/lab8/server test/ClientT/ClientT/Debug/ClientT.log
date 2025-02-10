@@ -1,0 +1,24 @@
+﻿  ClientT.cpp
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(132,21): warning C4101: obuf: неиспользованная локальная переменная
+  (компиляция исходного файла "/ClientT.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(204,40): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  (компиляция исходного файла "/ClientT.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(279,17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "/ClientT.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(281,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "/ClientT.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(309,25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "/ClientT.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(189,13): warning C4101: port: неиспользованная локальная переменная
+  (компиляция исходного файла "/ClientT.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(271,21): warning C4101: obuf: неиспользованная локальная переменная
+  (компиляция исходного файла "/ClientT.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\ClientT\ClientT\ClientT.cpp(168,1): warning C4715: HandlerRountime: значение возвращается не при всех путях выполнения
+  ClientT.vcxproj -> C:\Laboratory\Программирование сетевых приложений\lab8\ConcurrentServer\Debug\ClientT.exe

@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@functions
+{
+	string getUserName(string userID)
+	{
+		string? name = ((List<IdentityUser>)ViewBag.users).FirstOrDefault(u => { return (u.Id == userID); })?.UserName;
+		return string.Format($"Name: {name}");
+	}
+	string getRoleName(string roleID)
+	{
+		string? name = ((List<IdentityRole>)ViewBag.roles).FirstOrDefault(r => { return (r.Id == roleID); })?.Name;
+		return string.Format($"Role: {name}");
+	}
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin/Register</title>
+</head>
+<body>
+    <form asp-action="DeleteUser" method="post">
+        <label for="name">UserName</label>
+        <input type="text" name="UserName" required />
+        <button type="submit">Delete User</button>
+    </form>
+	<h2>Users</h2>
+	@foreach (IdentityUser user in ViewBag.users)
+	{
+		<p>ID: @user.Id, Email: @user.Email, UserName: @user.UserName</p>
+	}
+</body>
+</html>

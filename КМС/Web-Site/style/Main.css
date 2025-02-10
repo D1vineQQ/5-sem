@@ -1,0 +1,254 @@
+* {
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+body{
+  position: relative;
+	width: 100%; 
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.8)), url('../images/top_view_on_magic2.jpg');
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;   
+  /* margin-bottom: 10%; */
+}
+
+.main_title{
+  color:white;
+  margin:6% 0 3% 0;
+
+  text-shadow: grey 0px 0px 10px;
+  font-size: xxx-large;
+  letter-spacing: 1.3px;
+}
+
+.title_text{
+  margin: 5% 0 1.2% 0;
+  font-size: xx-large;
+  text-align:center;
+  color:white;
+  text-shadow: grey 0px 0px 10px;
+
+}
+.main_title_text{
+  text-align: justify;
+  color:white;
+  text-shadow: grey 0px 0px 10px;
+  font-size: 15pt;
+  /* margin:15px; */
+  text-indent: 35px;
+}
+
+.marg{
+  margin-bottom: 20px;
+}
+
+.bg_gradient{
+  /* background: radial-gradient(rgba(0, 0, 0, 0.85) 20px, transparent); */
+  background-color:rgba(0, 0, 0, 0.20);
+  margin:15px 21%;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* min-width: 270px; */
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4% 0 0 0;
+}
+
+@media (max-width:425px){
+  .bg_gradient{
+    margin:15px 7%;
+  }
+  .main_title{
+    font-size: xx-large  ;
+  }
+  .div-img{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .fml-img{
+    max-width: 220px;
+  }
+}
+
+@media (min-width:426px){
+  .div-img{
+    width: 90%;
+    border-radius: 15px;
+  }
+  .video-content{
+    width:90%;
+  }
+  .fml{
+    max-width: 90%;
+  }
+  .fml, .fml img{
+    max-width: 90%;
+  }
+}
+
+.menu a, .nav-menu a{
+  background-color: rgba(0, 0, 0, 0.65);
+  min-width: 15%;
+  padding: 15px;
+  margin: 1.5% 0 0 0;
+  border-radius: 25px;
+  font-size:16pt;
+  color: white;
+  text-decoration: none;
+  /* font-weight: bold; */
+  letter-spacing: 1.3px;
+  min-width: 220px;
+  user-select: none;
+
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 4% 0 0 0;
+  flex-wrap: wrap;
+}
+
+.nav-menu a{
+  /* margin:1.5%; */
+  min-width: 270px;
+  letter-spacing: 1.2px;
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: all 0.3s ease;
+}
+
+/* * {
+  transition: all 0.3s ease;
+} */
+.no-transition{
+  transition: none;
+}
+
+.nav-img{
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 35px;
+  margin-bottom: 7%;
+}
+
+.nav-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:1.5% 3%;
+  /* margin-bottom: 20%; */
+  user-select: none;
+}
+
+.img-cont{
+  margin: 5% 0 7% 0;
+  /* background-color: rgba(0, 0, 0, 0.65); */
+}
+
+.img-text{
+  color:white;
+  margin-top: 2%;
+  font-size: large;
+}
+
+.fml{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fml-img{
+  /* max-width: 150px; */
+  margin-bottom: 3%;
+}
+
+.fml-num{
+  color:white;
+  font-size: larger;
+}
+
+.fmls{
+  /* margin-bottom: 7%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  margin-bottom: 4%;
+}
+
+.fml{
+  margin: 3% 3% 0% 3%;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 25px;
+  padding:5px;
+}
+
+.purple{
+  color:blueviolet;
+}
+
+.low{
+  font-size: small;
+}
+
+.tnr{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+  margin-top: 6%;
+}
+
+.fml:hover, .img-cont:hover{
+  transform: scale(1.3);
+  background-color: rgba(0, 0, 0, 0);
+}
+.img-cont:hover{
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+}
+*{
+  transition: all 0.3s ease;
+}
+
+.click-img{
+  color:coral;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 0 3px;
+}
+
+.hidden-img{
+  display:none;
+  margin-bottom: 15px;
+}
+
+.hidden-img img{
+  border-radius: 15px;
+}
+
+.video-content{
+  width:100%;
+  border-radius: 15px;
+  margin: 5% 0 7% 0;
+}
+footer{
+  margin-top: 100px;
+}

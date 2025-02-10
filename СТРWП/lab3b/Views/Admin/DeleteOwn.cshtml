@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin/DeleteOwn</title>
+</head>
+<body>
+    <form asp-action="DeleteOwn" method="post">
+        <input type="hidden" name="UserName" value="@ViewBag.UserName" required />
+        <button type="submit">Удалить свою учётную запись</button>
+    </form>
+    <a href="/Home/Index">На главную</a>
+</body>
+</html>

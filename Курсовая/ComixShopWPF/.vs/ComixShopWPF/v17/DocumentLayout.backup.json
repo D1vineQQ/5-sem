@@ -1,0 +1,905 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\adminviews\\adminorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\adminviews\\adminorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\adminviewmodels\\reportwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\adminviewmodels\\reportwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\adminviews\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\adminviews\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\adminviewmodels\\admmanagmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\adminviewmodels\\admmanagmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\adminviews\\adminmanagmentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\adminviews\\adminmanagmentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\comixadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\comixadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\profileviews\\profileorderhistoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\profileviews\\profileorderhistoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\profileviewmodels\\profileinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\profileviewmodels\\profileinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\comixadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\comixadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\adminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\adminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\comixadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\comixadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\adminviewmodels\\adminorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\adminviewmodels\\adminorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\profileviews\\profileinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\profileviews\\profileinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\profileviews\\profilelogoutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\profileviews\\profilelogoutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\regview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\regview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\regviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\regviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\models\\useraccountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:models\\useraccountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\comixoverviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\comixoverviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\orderwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\orderwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\mainwindowsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\mainwindowsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\profileviewmodels\\profileorderhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\profileviewmodels\\profileorderhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\profileviewmodels\\profilelogoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\profileviewmodels\\profilelogoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\orderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\orderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\cartview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\cartview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\comixoverviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\comixoverviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\models\\comixmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:models\\comixmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\profileview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\profileview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\commands\\tocatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:commands\\tocatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\authwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\authwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\catalogview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\catalogview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\models\\shoppingcartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:models\\shoppingcartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\catalogview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\catalogview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\authview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\authview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\commands\\base\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:commands\\base\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\commands\\base\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:commands\\base\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\regview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\regview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\frames\\authview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\frames\\authview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\views\\windows\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:views\\windows\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|c:\\laboratory\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\comixshopwpf\\viewmodels\\base\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536BB427-18A2-4ECA-BADA-C1C58C7BB16B}|ComixShopWPF.csproj|solutionrelative:viewmodels\\base\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 52,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminOrders.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminViews\\AdminOrders.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\AdminViews\\AdminOrders.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminViews\\AdminOrders.xaml",
+              "RelativeToolTip": "Views\\Frames\\AdminViews\\AdminOrders.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T13:33:02.913Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a5174402-226b-48da-aa5c-91376ed45871}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModels\\ReportWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminViewModels\\ReportWindowViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModels\\ReportWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdminViewModels\\ReportWindowViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:24:01.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportWindow.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminViews\\ReportWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\AdminViews\\ReportWindow.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminViews\\ReportWindow.xaml",
+              "RelativeToolTip": "Views\\Frames\\AdminViews\\ReportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T17:17:56.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModels\\AdminOrderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminViewModels\\AdminOrderViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModels\\AdminOrderViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdminViewModels\\AdminOrderViewModel.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAIAwwIEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T13:34:12.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:32:58.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "Services\\SessionService.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Services\\SessionService.cs",
+              "RelativeToolTip": "Services\\SessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:32:57.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ComixAdminViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ComixAdminViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ComixAdminViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ComixAdminViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ComixAdminViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:00:38.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\AdminView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminView.xaml",
+              "RelativeToolTip": "Views\\Frames\\AdminView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T10:50:17.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdminViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:50:06.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ComixOverviewWindow.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixOverviewWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Windows\\ComixOverviewWindow.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixOverviewWindow.xaml",
+              "RelativeToolTip": "Views\\Windows\\ComixOverviewWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T09:57:27.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ComixOverviewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixOverviewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Windows\\ComixOverviewWindow.xaml.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixOverviewWindow.xaml.cs",
+              "RelativeToolTip": "Views\\Windows\\ComixOverviewWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:57:25.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComixAdminWindow.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixAdminWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Windows\\ComixAdminWindow.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixAdminWindow.xaml",
+              "RelativeToolTip": "Views\\Windows\\ComixAdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T15:42:40.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComixAdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixAdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Windows\\ComixAdminWindow.xaml.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\ComixAdminWindow.xaml.cs",
+              "RelativeToolTip": "Views\\Windows\\ComixAdminWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:42:23.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdmManagmentViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModels\\AdmManagmentViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminViewModels\\AdmManagmentViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AdminViewModels\\AdmManagmentViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdminViewModels\\AdmManagmentViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAlwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:40:34.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminManagmentView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminViews\\AdminManagmentView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\AdminViews\\AdminManagmentView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AdminViews\\AdminManagmentView.xaml",
+              "RelativeToolTip": "Views\\Frames\\AdminViews\\AdminManagmentView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T15:33:37.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProfileOrderHistoryViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModels\\ProfileOrderHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModels\\ProfileOrderHistoryViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModels\\ProfileOrderHistoryViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModels\\ProfileOrderHistoryViewModel.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:57:36.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:26:04.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProfileLogoutViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModels\\ProfileLogoutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModels\\ProfileLogoutViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModels\\ProfileLogoutViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModels\\ProfileLogoutViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:51:01.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModels\\ProfileInfoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModels\\ProfileInfoViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\ProfileViewModels\\ProfileInfoViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModels\\ProfileInfoViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:47:29.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProfileInfoView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileViews\\ProfileInfoView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\ProfileViews\\ProfileInfoView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileViews\\ProfileInfoView.xaml",
+              "RelativeToolTip": "Views\\Frames\\ProfileViews\\ProfileInfoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T12:46:12.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfileOrderHistoryView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileViews\\ProfileOrderHistoryView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\ProfileViews\\ProfileOrderHistoryView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileViews\\ProfileOrderHistoryView.xaml",
+              "RelativeToolTip": "Views\\Frames\\ProfileViews\\ProfileOrderHistoryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T12:44:53.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProfileLogoutView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileViews\\ProfileLogoutView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\ProfileViews\\ProfileLogoutView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileViews\\ProfileLogoutView.xaml",
+              "RelativeToolTip": "Views\\Frames\\ProfileViews\\ProfileLogoutView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T12:44:32.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Windows\\MainWindow.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T11:32:23.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\RoleModel.cs",
+              "RelativeDocumentMoniker": "Models\\RoleModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\RoleModel.cs",
+              "RelativeToolTip": "Models\\RoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T13:41:40.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderWindow.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\OrderWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Windows\\OrderWindow.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\OrderWindow.xaml",
+              "RelativeToolTip": "Views\\Windows\\OrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T08:45:36.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\OrderWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrderWindowViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\OrderWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OrderWindowViewModel.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwFoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:14:16.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProfileView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\ProfileView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\ProfileView.xaml",
+              "RelativeToolTip": "Views\\Frames\\ProfileView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T17:23:00.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Services\\UserSession.cs",
+              "RelativeDocumentMoniker": "Services\\UserSession.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Services\\UserSession.cs",
+              "RelativeToolTip": "Services\\UserSession.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:09:56.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CatalogView.xaml.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\CatalogView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Frames\\CatalogView.xaml.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\CatalogView.xaml.cs",
+              "RelativeToolTip": "Views\\Frames\\CatalogView.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:28:38.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T16:20:12.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserAccountModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\UserAccountModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserAccountModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\UserAccountModel.cs",
+              "RelativeToolTip": "Models\\UserAccountModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:55:57.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADgv0sAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:37:45.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CartViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CartViewModel.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwBkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:00:55.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CartView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\CartView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\CartView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\CartView.xaml",
+              "RelativeToolTip": "Views\\Frames\\CartView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T17:59:48.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CatalogViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\CatalogViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CatalogViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\CatalogViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CatalogViewModel.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAASwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:45:00.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CatalogView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\CatalogView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\CatalogView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\CatalogView.xaml",
+              "RelativeToolTip": "Views\\Frames\\CatalogView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T08:01:11.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AuthView.xaml.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AuthView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Frames\\AuthView.xaml.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AuthView.xaml.cs",
+              "RelativeToolTip": "Views\\Frames\\AuthView.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAhwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:44:58.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AuthView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AuthView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\AuthView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\AuthView.xaml",
+              "RelativeToolTip": "Views\\Frames\\AuthView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T18:53:21.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\RegViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\RegViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegViewModel.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAewIAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:57.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AuthWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\AuthWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Windows\\AuthWindow.xaml.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\AuthWindow.xaml.cs",
+              "RelativeToolTip": "Views\\Windows\\AuthWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:48:54.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegView.xaml.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\RegView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Frames\\RegView.xaml.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\RegView.xaml.cs",
+              "RelativeToolTip": "Views\\Frames\\RegView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:19:57.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RegView.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\RegView.xaml",
+              "RelativeDocumentMoniker": "Views\\Frames\\RegView.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Frames\\RegView.xaml",
+              "RelativeToolTip": "Views\\Frames\\RegView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T19:49:48.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthWindow.xaml",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\AuthWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Windows\\AuthWindow.xaml",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\AuthWindow.xaml",
+              "RelativeToolTip": "Views\\Windows\\AuthWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T18:11:10.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuthWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AuthWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AuthWindowViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\AuthWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AuthWindowViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T18:33:19.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Views\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:32:21.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainWindowsViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\MainWindowsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowsViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\MainWindowsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowsViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:31:04.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Commands\\base\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\base\\RelayCommand.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Commands\\base\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\base\\RelayCommand.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:46:20.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ToCatalog.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Commands\\ToCatalog.cs",
+              "RelativeDocumentMoniker": "Commands\\ToCatalog.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Commands\\ToCatalog.cs",
+              "RelativeToolTip": "Commands\\ToCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:44:12.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Commands\\base\\Command.cs",
+              "RelativeDocumentMoniker": "Commands\\base\\Command.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Commands\\base\\Command.cs",
+              "RelativeToolTip": "Commands\\base\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:41:41.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\Base\\ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Base\\ViewModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\ViewModels\\Base\\ViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Base\\ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:23:29.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderItemModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\OrderItemModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItemModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\OrderItemModel.cs",
+              "RelativeToolTip": "Models\\OrderItemModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:56:52.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\OrderModel.cs",
+              "RelativeToolTip": "Models\\OrderModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:56:42.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CartItemModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\CartItemModel.cs",
+              "RelativeDocumentMoniker": "Models\\CartItemModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\CartItemModel.cs",
+              "RelativeToolTip": "Models\\CartItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:56:30.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ShoppingCartModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\ShoppingCartModel.cs",
+              "RelativeDocumentMoniker": "Models\\ShoppingCartModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\ShoppingCartModel.cs",
+              "RelativeToolTip": "Models\\ShoppingCartModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:56:21.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ComixModel.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\ComixModel.cs",
+              "RelativeDocumentMoniker": "Models\\ComixModel.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Models\\ComixModel.cs",
+              "RelativeToolTip": "Models\\ComixModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:56:07.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Laboratory\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\ComixShopWPF\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAewBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:49:34.174Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

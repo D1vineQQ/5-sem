@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="ComixShopWPF.Views.Frames.ProfileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ComixShopWPF.Views.Frames"
+             xmlns:vm="clr-namespace:ComixShopWPF.ViewModels"
+             xmlns:pfv="clr-namespace:ComixShopWPF.Views.Frames.ProfileViews"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800" d:Background="White">
+    <UserControl.DataContext>
+        <vm:ProfileViewModel/>
+    </UserControl.DataContext>
+    <TabControl TabStripPlacement="Left">
+        <TabItem Header="История заказов">
+            <TabItem.ContentTemplate>
+                <DataTemplate>
+                    <pfv:ProfileOrderHistoryView DataContext="{Binding ProfileOrderHistoryViewModel}" />
+                </DataTemplate>
+            </TabItem.ContentTemplate>
+        </TabItem>
+        <TabItem Header="Информация">
+            <TabItem.ContentTemplate>
+                <DataTemplate>
+                    <pfv:ProfileInfoView DataContext="{Binding ProfileInfoViewModel}" />
+                </DataTemplate>
+            </TabItem.ContentTemplate>
+        </TabItem>
+        <TabItem Header="Выйти с аккаунта" IsSelected="True" x:Name="Admin">
+            <TabItem.ContentTemplate>
+                <DataTemplate>
+                    <pfv:ProfileLogoutView DataContext="{Binding ProfileLogoutViewModel}" />
+                </DataTemplate>
+            </TabItem.ContentTemplate>
+        </TabItem>
+    </TabControl>
+</UserControl>

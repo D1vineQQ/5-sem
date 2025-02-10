@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@functions
+{
+	string getUserName(string userID)
+	{
+		string? name = ((List<IdentityUser>)ViewBag.users).FirstOrDefault(u => { return (u.Id == userID); })?.UserName;
+		return string.Format($"Name: {name}");
+	}
+	string getRoleName(string roleID)
+	{
+		string? name = ((List<IdentityRole>)ViewBag.roles).FirstOrDefault(r => { return (r.Id == roleID); })?.Name;
+		return string.Format($"Role: {name}");
+	}
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Admin/DeleteRole</title>
+</head>
+<body>
+	<form asp-action="DeleteRole" method="post">
+		<label for="name">RoleName</label>
+		<input type="text" name="RoleName" required />
+		<button type="submit">Delete Role</button>
+	</form>
+	<h2>Roles</h2>
+	@foreach (IdentityRole role in ViewBag.roles)
+	{
+		<p>@role.Id, @role.Name</p>
+	}
+	<h2>Users/Roles</h2>
+	@foreach (IdentityUserRole<string> ur in ViewBag.users_roles)
+	{
+		<p>@ur.UserId [@getUserName(ur.UserId)], @ur.RoleId [@getRoleName(ur.RoleId)]</p>
+	}
+</body>
+</html>

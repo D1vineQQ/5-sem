@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theory</title>
+  <link href="style/Main.css" rel="stylesheet">
+  <script src="Scripts/click_to_img.js"></script>
+
+  <link rel="stylesheet" href="style/dialog.css"/>
+
+  <script type="text/javascript" src="Scripts/dialog.js" defer=""></script>
+  <script type="text/javascript" src="JQuery/jquery.js" defer=""></script>
+</head>
+<body>
+
+  <h1 class="main_title">
+    Теоретические сведения
+  </h1>
+  <div class="bg_gradient">
+    
+    <div class="main_title_text">
+      Для изучения вольт-амперной и световой характеристик фоторезистора, 
+      а также для определения его интегральной и удельной интегральной 
+      чувствительности используется установка, схема которой приведена 
+      на рис. 1. Она состоит из фоторезистора <span class="tnr">Фр</span>, на который падает 
+      световой поток, исходящий от источника света И, а также из миллиамперметра 
+      <span class="tnr">mА</span>, вольтметра <span class="tnr">V</span>, 
+      источника напряжения <span class="tnr">E</span> и реостата <span class="tnr">R</span>, 
+      предназначенного для регулировки напряжения на фоторезисторе. 
+    </div>
+    <div class="img-cont">
+      <img src="images/pic1.png" class="div-img">
+      <div class="img-text">
+        Рисунок 1
+      </div>
+    </div>
+    <div class="main_title_text">
+      Изменение величины светового потока, падающего на поверхность фоторезистора, 
+      осуществляется путем изменения расстояния <span class="tnr">l</span> между 
+      фоторезистором и источником света. В качестве
+      источника света применяется лампа накаливания, размер спирали
+      которой мал по сравнению с расстоянием от лампы до фоторезистора. Условно принимая 
+      лампу накаливания точечным изотропным источником света, силу света лампы 
+      <span class="tnr">I<span class="low">c</span></span> можно рассчитать по формуле 1. 
+      Учитывая, что световой поток падает перпендикулярно поверхности фоторезистора, освещенность 
+      <span class="tnr">E<span class="low">c</span></span> можно определить по формуле 2.
+    </div>
+
+    <div class="fmls">
+      <div class="fml">
+        <img src="images/fml1.png" class="fml-img">
+        <div class="fml-num">Формула 1</div>
+      </div>
+
+      <div class="fml">
+        <img src="images/fml2.png" class="fml-img">
+        <div class="fml-num">Формула 2</div>
+      </div>
+    </div>
+
+    <div class="main_title_text">
+        При отсутствии освещения в измерительной цепи протекает 
+        темновой ток <span class="tnr">I<span class="low">0</span></span>. 
+        При освещении фоторезистора сила тока 
+        возрастает на величину <span class="tnr">ΔI</span>, называемую фототоком, в результате чего в цепи 
+        устанавливается световой ток <span class="tnr">I</span>. Отсюда следует, что величина фототока может 
+        быть рассчитана как разность между световым и темновым токами: 
+        <span class="tnr">ΔI = I - I<span class="low">0</span></span>
+    </div>
+    <div class="main_title_text">
+      <span class=purple>Вольт-амперной</span> 
+      характеристикой фоторезистора называется 
+      зависимость темнового, светового и фототока 
+      от приложенного к фоторезистору напряжения при 
+      неизменной величине светового потока, падающего на 
+      фоторезистор. Для фоторезисторов эта зависимость 
+      практически линейна. <span class="click-img" onclick="showImg()">Закон Ома</span> нарушается в 
+      большинстве случаев только при высоких напряжениях на фоторезисторе. 
+    </div>
+    <div id="hidden-img" class="hidden-img" class="img-cont">
+      <img src="images/Georg_Simon_Ohm3.jpg" class="div-img" onclick="hideImg()">
+      <div class="img-text">Георг Симон Ом</div>
+    </div>
+
+    <div class="main_title_text">
+      <span class=purple>Световой характеристикой</span> фоторезистора называется 
+      зависимость фототока от светового потока, падающего на фоторезистор при неизменном 
+      напряжении, приложенном к фоторезистору. Полупроводниковые фоторезисторы, как 
+      правило, имеют нелинейную световую характеристику, что связано с особенностями 
+      процессов фотогенерации и рекомбинации носителей заряда в полупроводнике. При 
+      постоянной интенсивности излучения скорость генерации носителей заряда, 
+      определяемая формулой 3, с течением времени не изменяется, тогда как скорость 
+      рекомбинации, определяемая формулой 4, по мере увеличения неравновесной 
+      концентрации носителей заряда возрастает. Поэтому через некоторое время после 
+      включения освещения наступает равновесие между процессами генерации и 
+      рекомбинации носителей заряда. В полупроводнике устанавливается стационарная 
+      неравновесная концентрация электронов <span class="tnr">n<span class="low">s</span></span> и 
+      дырок <span class="tnr">p<span class="low">s</span></span>, а скорость изменения концентрации 
+      носителей заряда <span class="tnr">dn/dt</span> в формуле 5 становится равной нулю (формула 6).
+    </div>
+    <div class="fmls">
+      <div class="fml">
+        <img src="images/fml3.png" class="fml-img">
+        <div class="fml-num">Формула 3</div>
+      </div>
+
+      <div class="fml">
+        <img src="images/fml4.png" class="fml-img">
+        <div class="fml-num">Формула 4</div>
+      </div>
+
+      <div class="fml">
+        <img src="images/fml5.png" class="fml-img">
+        <div class="fml-num">Формула 5</div>
+      </div>
+
+      <div class="fml">
+        <img src="images/fml6.png" class="fml-img">
+        <div class="fml-num">Формула 6</div>
+      </div>
+    </div>
+
+    <div class="main_title_text">
+      где <span class="tnr">g</span> и <span class="tnr">r</span> – 
+      коэффициенты пропорциональности, характеризующие процессы генерации 
+      и рекомбинации соответственно; <span class="tnr">L</span> – концентрация 
+      электронных ловушек. Формула 6 позволяет получить 
+      зависимость стационарной неравновесной концентрации носителей 
+      заряда <span class="tnr">n<span class="low">s</span></span> от освещенности 
+      <span class="tnr">E<span class="low">с</span></span>. 
+    </div>
+
+    <div class="main_title_text">
+      Рассмотрим два предельных случая низкой и высокой освещенности 
+      широкозонного полупроводника с собственной 
+      проводимостью. При низкой освещенности концентрация 
+      электронных ловушек <span class="tnr">L</span> намного превышает 
+      концентрацию носителей заряда <span class="tnr">n<span class="low">s</span></span>.
+      Тогда если пренебречь концентрацией <span class="tnr">n<span class="low">s</span></span> 
+      по сравнению с концентрацией <span class="tnr">L</span>,
+      то из формулы 6 следует, что стационарная 
+      неравновесная концентрация носителей пропорциональна освещенности (формула 7).
+    </div>
+
+    <div class="fmls">
+      <div class="fml">
+        <img src="images/fml7.png" class="fml-img">
+        <div class="fml-num">Формула 7</div>
+      </div>
+
+      <div class="fml">
+        <img src="images/fml8.png" class="fml-img">
+        <div class="fml-num">Формула 8</div>
+      </div>
+    </div>
+
+    <div class="main_title_text">
+      При высокой освещенности концентрация электронных 
+      ловушек <span class="tnr">L</span> мала по сравнению с концентрацией носителей 
+      заряда <span class="tnr">n<span class="low">s</span></span>, и в формуле 7 концентрацией 
+      <span class="tnr">L</span> можно пренебречь. Тогда из формулы 7 
+      получится, что стационарная неравновесная 
+      концентрация носителей заряда пропорциональна корню квадратному 
+      от освещенности (формула 8).
+    </div>
+
+    <div class="main_title_text">
+      Так как сила тока пропорциональна концентрации носителей 
+      заряда, то из формул 7 и 8 следует, что при 
+      низкой освещенности световая характеристика фоторезистора 
+      является линейной, тогда как при высокой освещенности она 
+      станет нелинейной, причем фототок будет пропорционален корню квадратному 
+      из освещенности. При промежуточных освещенностях световая 
+      характеристика будет удовлетворять приближённо формуле 9.
+    </div>
+
+    <div class="fmls">
+      <div class="fml">
+        <img src="images/fml9.png" class="fml-img">
+        <div class="fml-num">Формула 9</div>
+      </div>
+
+      <div class="fml">
+        <img src="images/fml10.png" class="fml-img">
+        <div class="fml-num">Формула 10</div>
+      </div>
+    </div>
+
+    <div class="main_title_text">
+      где <span class="tnr">k</span> – коэффициент пропорциональности; <span class="tnr">γ</span> – показатель 
+      степени, принимающий значения в пределах от 0,5 
+      (высокая освещенность) до 1,0 (низкая освещенность). 
+      Если прологарифмировать формулу 9, получим формулу 10.
+    </div>
+
+    <div class="main_title_text">
+      Таким образом, световая характеристика 
+      фоторезистора, построенная в логарифмических 
+      координатах <span class="tnr">lnΔI – lnEc</span>, является линейной, причем 
+      тангенс угла наклона этой зависимости равен <span class="tnr">γ</span>. 
+    </div>
+    
+    <div class="main_title_text">
+      Наряду с вольт-амперной, световой и спектральной 
+      характеристиками у фоторезисторов есть целый ряд 
+      параметров, наиважнейшими из которых являются 
+      интегральная и удельная интегральная чувствительность. 
+      <span class="purple">Интегральной чувствительностью фоторезистора</span> 
+      называется отношение фототока <span class="tnr">ΔI</span>, который проходит 
+      через фоторезистор при рабочем напряжении, к падающему 
+      на светочувствительную поверхность световому потоку <span class="tnr">Ф<span class="low">с</span></span>, формула 11.
+    </div>
+
+    <div class="fmls">
+      <div class="fml">
+        <img src="images/fml11.png" class="fml-img">
+        <div class="fml-num">Формула 11</div>
+      </div>
+    </div>
+
+    <div class="main_title_text">
+      где <span class="tnr">S</span> – площадь светочувствительной поверхности 
+      фоторезистора. <span class="purple">Удельной интегральной чувствительностью</span> 
+      фоторезистора называется отношение фототока <span class="tnr">ΔI</span> к величине 
+      светового потока <span class="tnr">Ф<span class="low">с</span></span> и к величине приложенного напряжения <span class="tnr">U</span>, формула 12.
+    </div>
+    <div class="fmls">
+      <div class="fml">
+        <img src="images/fml12.png" class="fml-img">
+        <div class="fml-num">Формула 12</div>
+      </div>
+    </div>
+              <!-- <div class="main_title_text">
+                <div id="container"></div>
+              </div> -->
+  </div>
+
+  <nav class="nav-menu">
+    <a href="MainMenu.html">Меню навигации</a>
+  </nav>
+  
+    <footer></footer>
+</body>
+</html>

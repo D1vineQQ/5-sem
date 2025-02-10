@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5B0331-15D6-4AAA-A941-09B796ACA323}|ServrB\\ServerB.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServrB\\ServerB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD5B0331-15D6-4AAA-A941-09B796ACA323}|ServrB\\ServerB.vcxproj|solutionrelative:ServrB\\ServerB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7412843-A3F2-4692-8EA8-736FECD1895E}|ServerU\\ServerU.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServerU\\ServerU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F7412843-A3F2-4692-8EA8-736FECD1895E}|ServerU\\ServerU.vcxproj|solutionrelative:ServerU\\ServerU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69DAB68-C6C9-468A-8A6B-22C8A5C700E9}|ClientT\\ClientT.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ClientT\\ClientT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B69DAB68-C6C9-468A-8A6B-22C8A5C700E9}|ClientT\\ClientT.vcxproj|solutionrelative:ClientT\\ClientT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFAE245-45A4-4F49-B237-241ADA3F25EE}|ServerT\\ServerT.vcxproj|C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServerT\\ServerT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EDFAE245-45A4-4F49-B237-241ADA3F25EE}|ServerT\\ServerT.vcxproj|solutionrelative:ServerT\\ServerT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a5174402-226b-48da-aa5c-91376ed45871}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerB.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServrB\\ServerB.cpp",
+              "RelativeDocumentMoniker": "ServrB\\ServerB.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServrB\\ServerB.cpp",
+              "RelativeToolTip": "ServrB\\ServerB.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T10:24:36.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerT.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServerT\\ServerT.cpp",
+              "RelativeDocumentMoniker": "ServerT\\ServerT.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServerT\\ServerT.cpp",
+              "RelativeToolTip": "ServerT\\ServerT.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T16:42:09.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientT.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ClientT\\ClientT.cpp",
+              "RelativeDocumentMoniker": "ClientT\\ClientT.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ClientT\\ClientT.cpp",
+              "RelativeToolTip": "ClientT\\ClientT.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwFMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T18:31:45.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServerU.cpp",
+              "DocumentMoniker": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServerU\\ServerU.cpp",
+              "RelativeDocumentMoniker": "ServerU\\ServerU.cpp",
+              "ToolTip": "C:\\Laboratory\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0442\u0435\u0432\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\ServerU\\ServerU.cpp",
+              "RelativeToolTip": "ServerU\\ServerU.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAG0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T16:38:39.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+D:\Laboratory\СТРWП\WinForms\bin\Debug\net8.0-windows\WinForms.exe
+D:\Laboratory\СТРWП\WinForms\bin\Debug\net8.0-windows\WinForms.deps.json
+D:\Laboratory\СТРWП\WinForms\bin\Debug\net8.0-windows\WinForms.runtimeconfig.json
+D:\Laboratory\СТРWП\WinForms\bin\Debug\net8.0-windows\WinForms.dll
+D:\Laboratory\СТРWП\WinForms\bin\Debug\net8.0-windows\WinForms.pdb
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.Form1.resources
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.csproj.GenerateResource.cache
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.GeneratedMSBuildEditorConfig.editorconfig
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.AssemblyInfoInputs.cache
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.AssemblyInfo.cs
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.csproj.CoreCompileInputs.cache
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.dll
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\refint\WinForms.dll
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.pdb
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\WinForms.genruntimeconfig.cache
+D:\Laboratory\СТРWП\WinForms\obj\Debug\net8.0-windows\ref\WinForms.dll

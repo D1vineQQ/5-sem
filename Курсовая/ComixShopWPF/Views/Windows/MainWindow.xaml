@@ -1,0 +1,62 @@
+﻿<Window x:Class="ComixShopWPF.Views.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComixShopWPF"
+        xmlns:vm="clr-namespace:ComixShopWPF.ViewModels"
+        xmlns:sv="clr-namespace:ComixShopWPF.Services"
+        xmlns:frames="clr-namespace:ComixShopWPF.Views.Frames"
+        mc:Ignorable="d"
+        Style="{StaticResource MaterialDesignWindow}"
+        Title="MainWindow" Height="500" Width="900">
+    <Window.DataContext>
+        <vm:MainWindowsViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Catalog">
+                <TabItem.ContentTemplate>
+                    <DataTemplate>
+                        <frames:CatalogView DataContext="{Binding CatalogViewModel}"/>
+                        <!--<frames:AuthView DataContext="{Binding LoginViewModel}" />-->
+                    </DataTemplate>
+                </TabItem.ContentTemplate>
+            </TabItem>
+            <TabItem Header="Cart">
+                <TabItem.ContentTemplate>
+                    <DataTemplate>
+                        <frames:CartView DataContext="{Binding CartViewModel}" />
+                    </DataTemplate>
+                </TabItem.ContentTemplate>
+            </TabItem>
+            <TabItem Header="Profile">
+                <TabItem.ContentTemplate>
+                    <DataTemplate>
+                        <frames:ProfileView DataContext="{Binding ProfileViewModel}" />
+                    </DataTemplate>
+                </TabItem.ContentTemplate>
+            </TabItem>
+            <TabItem Header="Admin" x:Name="AdminTab">
+                <TabItem.Style>
+                    <Style TargetType="TabItem">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Source={x:Static sv:UserSession.Instance}, Path=IsAdmin}" Value="True">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Source={x:Static sv:UserSession.Instance}, Path=IsAdmin}" Value="False">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TabItem.Style>
+                <TabItem.ContentTemplate>
+                    <DataTemplate>
+                        <frames:AdminView DataContext="{Binding AdminViewModel}" />
+                    </DataTemplate>
+                </TabItem.ContentTemplate>
+            </TabItem>
+        </TabControl>
+        <!--<ContentControl Grid.Column="1" Content="{Binding SelectedViewModel}"/>-->
+    </Grid>
+</Window>

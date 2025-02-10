@@ -1,0 +1,11 @@
+﻿  RConsole.cpp
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\RConsole\ClientNP\RConsole.cpp(47,7): warning C4101: msg: неиспользованная локальная переменная
+  (компиляция исходного файла "/RConsole.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\RConsole\ClientNP\RConsole.cpp(48,7): warning C4101: final_msg: неиспользованная локальная переменная
+  (компиляция исходного файла "/RConsole.cpp")
+  
+C:\Laboratory\Программирование сетевых приложений\lab8\server test\RConsole\ClientNP\RConsole.cpp(68,6): warning C4101: n: неиспользованная локальная переменная
+  (компиляция исходного файла "/RConsole.cpp")
+  
+  ClientNP.vcxproj -> C:\Laboratory\Программирование сетевых приложений\lab8\ConcurrentServer\Debug\RConsole.exe

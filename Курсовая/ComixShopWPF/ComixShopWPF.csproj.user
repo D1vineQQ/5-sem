@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Frames\AdminViews\AdminOrders.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\AdminViews\ReportWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\CartView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\CatalogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\ProfileView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\ProfileViews\ProfileInfoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\ProfileViews\ProfileLogoutView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\ProfileViews\ProfileOrderHistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\RegView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\AuthView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Windows\AuthWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Windows\ComixOverviewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Windows\OrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\Frames\AdminViews\AdminOrders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\AdminViews\ReportWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\CartView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\CatalogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\ProfileView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\ProfileViews\ProfileInfoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\ProfileViews\ProfileLogoutView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\ProfileViews\ProfileOrderHistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\RegView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\AuthView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\AuthWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\ComixAdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\ComixOverviewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\OrderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

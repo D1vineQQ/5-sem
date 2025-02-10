@@ -1,0 +1,13 @@
+﻿  ClientT.cpp
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(113,46): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(110,18): warning C4101: obuf: неиспользованная локальная переменная
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(259,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(286,59): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(187,28): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(255,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(257,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(285,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(172,7): warning C4101: port: неиспользованная локальная переменная
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(247,5): warning C4101: obuf: неиспользованная локальная переменная
+C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\ClientT\ClientT.cpp(147,1): warning C4715: HandlerRountime: значение возвращается не при всех путях выполнения
+  ClientT.vcxproj -> C:\5sem\PSPLab8LastDay\lab8\server test\ClientT\x64\Debug\ClientT.exe

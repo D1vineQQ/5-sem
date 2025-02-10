@@ -1,0 +1,5 @@
+﻿  ServerB.cpp
+C:\Laboratory\Программирование сетевых приложений\ServrB\ServerB.cpp(89,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Laboratory\Программирование сетевых приложений\ServrB\ServerB.cpp(118,34): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Laboratory\Программирование сетевых приложений\ServrB\ServerB.cpp(100,17): warning C4101: serv: неиспользованная локальная переменная
+  ServerB.vcxproj -> C:\Laboratory\Программирование сетевых приложений\x64\Debug\ServerB.exe

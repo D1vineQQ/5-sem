@@ -1,0 +1,14 @@
+C:\Laboratory\Операционные Системы\OS09_01\bin\Debug\net8.0\OS09_01.exe
+C:\Laboratory\Операционные Системы\OS09_01\bin\Debug\net8.0\OS09_01.deps.json
+C:\Laboratory\Операционные Системы\OS09_01\bin\Debug\net8.0\OS09_01.runtimeconfig.json
+C:\Laboratory\Операционные Системы\OS09_01\bin\Debug\net8.0\OS09_01.dll
+C:\Laboratory\Операционные Системы\OS09_01\bin\Debug\net8.0\OS09_01.pdb
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\OS09_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\OS09_01.AssemblyInfoInputs.cache
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\OS09_01.AssemblyInfo.cs
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\OS09_01.csproj.CoreCompileInputs.cache
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\OS09_01.dll
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\refint\OS09_01.dll
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\OS09_01.pdb
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\OS09_01.genruntimeconfig.cache
+C:\Laboratory\Операционные Системы\OS09_01\obj\Debug\net8.0\ref\OS09_01.dll

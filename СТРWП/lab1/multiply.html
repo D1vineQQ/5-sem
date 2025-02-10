@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Multiply</title>
+    <script> 
+        function sendInfo() {
+            let client = new XMLHttpRequest();
+
+            let X = document.getElementById("Xinp").value;
+            let Y = document.getElementById("Yinp").value;
+
+            client.open("POST", "http://localhost:5277/BDA/multiply?X=" + X + "&Y=" + Y);
+
+            client.onload = () =>
+            {
+                document.getElementById("result").innerText = client.responseText;
+            }
+
+            client.send();
+        }
+    </script>
+</head>
+<body>
+    <input id="Xinp" type="number"/>
+    <input id="Yinp" type="number"/>
+
+    <button onclick='sendInfo()'>
+        Send
+    </button>
+
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿<Window x:Class="ComixShopWPF.Views.Windows.OrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComixShopWPF.Views.Windows"
+        xmlns:vm="clr-namespace:ComixShopWPF.ViewModels"
+        mc:Ignorable="d" 
+        d:DesignHeight="500" d:DesignWidth="900" d:Background="White">
+    <Window.DataContext>
+        <vm:OrderWindowViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical">
+            
+        </StackPanel>
+        <TextBlock Text="Подтверждение заказа" 
+               FontSize="24" 
+               HorizontalAlignment="Center" 
+               Margin="0,0,0,10" 
+               FontWeight="Bold" />
+
+        <DataGrid 
+        Grid.Row="0"
+        ItemsSource="{Binding CartItems}" 
+        AutoGenerateColumns="False" 
+        CanUserAddRows="False" 
+        CanUserDeleteRows="False" 
+        IsReadOnly="True"
+        Margin="0,50,0,0">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Comix.Title}" Width="*" />
+                <DataGridTextColumn Header="Количество" Binding="{Binding Quantity}" Width="100" />
+                <DataGridTextColumn Header="Цена за штуку" Binding="{Binding Comix.Price, StringFormat=C}" Width="120" />
+                <!--<DataGridTextColumn Header="Итого" Binding="{Binding TotalCost, StringFormat=C}" Width="120" /> -->
+
+                <!-- Кнопка для удаления позиции -->
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Orientation="Vertical" Grid.Row="1">
+            <Label Content="Выберите способ оплаты:" FontWeight="Bold"/>
+            <ComboBox ItemsSource="{Binding PaymentMethods}" 
+                      SelectedItem="{Binding SelectedPaymentMethod}" 
+                      Margin="50,0,100,0"
+                      HorizontalAlignment="Left"
+                      Width="150"
+                      />
+
+            <Label Content="Комментарий к заказу (необязательно):" FontWeight="Bold"/>
+            <TextBox Margin="50 0 50 0" Text="{Binding OrderComment}" Height="60" TextWrapping="Wrap" Width="400" HorizontalAlignment="Left"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Margin="15" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <TextBlock Text="Общая стоимость: " FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBlock Text="{Binding TotalCost, StringFormat=C}" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,20,0"/>
+
+
+            <Button Content="Оформить заказ" 
+                Command="{Binding PlaceOrderCommand}" 
+                Width="150" 
+                Height="40" 
+                Margin="10,0" />
+        </StackPanel>
+    </Grid>
+</Window>

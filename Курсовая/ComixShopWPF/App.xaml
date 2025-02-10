@@ -1,0 +1,39 @@
+﻿<Application x:Class="ComixShopWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ComixShopWPF"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             StartupUri="Views/Windows/AuthWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Установите базовую тему и цвета -->
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+
+                <!-- Основной цвет -->
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/MaterialDesignColor.Red.Primary.xaml" />
+                    </ResourceDictionary.MergedDictionaries>
+
+                    <SolidColorBrush x:Key="MaterialDesign.Brush.Primary.Light" Color="#EA1B25"/>
+                    <SolidColorBrush x:Key="MaterialDesign.Brush.Primary" Color="#EA1B25"/>
+                    <SolidColorBrush x:Key="MaterialDesign.Brush.Primary.Dark" Color="#B00020"/>
+                </ResourceDictionary>
+
+                <!-- Вторичный цвет -->
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/MaterialDesignColor.Lime.Secondary.xaml" />
+                    </ResourceDictionary.MergedDictionaries>
+
+                    <SolidColorBrush x:Key="MaterialDesign.Brush.Secondary.Light" Color="{StaticResource Secondary200}" />
+                    <SolidColorBrush x:Key="MaterialDesign.Brush.Secondary" Color="{StaticResource Secondary400}" />
+                    <SolidColorBrush x:Key="MaterialDesign.Brush.Secondary.Dark" Color="{StaticResource Secondary700}" />
+                </ResourceDictionary>
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
